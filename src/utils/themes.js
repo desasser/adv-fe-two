@@ -1,4 +1,4 @@
-import { text, colors, neutral, red } from './colors';
+import { text, colors, neutral, red, highlight } from './colors';
 import { secondaryFont, primaryFont } from './typography';
 
 export const defaultTheme = {
@@ -24,10 +24,10 @@ export const defaultTheme = {
   hoverBorder: colors[300],
 
   //Button Focus
-  // focusBorder: highlight['blue'],
+  focusBorder: highlight['blue'],
   primaryFocus: colors[500],
   secondaryFocus: neutral[100],
-  // tertiaryFocus: highlight['blue'],
+  tertiaryFocus: highlight['blue'],
   textPrimaryFocus: text['light'],
 
   //Button Disabled
@@ -48,12 +48,13 @@ export const defaultTheme = {
   textFieldFont: secondaryFont,
   textFieldBackground: neutral[200],
   textFieldLabel: neutral[500],
-  // textFieldInput: highlight['blue'],
+  textFieldInput: highlight['blue'],
   textFieldErrorLabel: red[100],
   textFieldErrorInput: neutral[600],
 
   //Nav
   navBackground: neutral[100],
+  navLink: neutral[600],
 };
 
 export default defaultTheme;

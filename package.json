@@ -76,5 +76,9 @@
   },
   "files": [
     "dist"
-  ]
+  ],
+  "main": "index.js",
+  "repository": "git@github.com:desasser/adv-fe-two.git",
+  "author": "Daniel Sasser <desasser79@gmail.com>",
+  "license": "MIT"
 }
